@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>To-Do List Manager</h1>
+    </header>
+    <main>
+        <section id="task-list">
+            <h2>Tasks</h2>
+            <ul id="tasks">
+                <!-- tasks will be displayed here -->
+            </ul>
+            <button id="add-task-btn">Add New Task</button>
+        </section>
+        <section id="task-form">
+            <h2>Add/Edit Task</h2>
+            <form>
+                <input type="text" id="task-input" placeholder="Enter task description">
+                <button id="save-task-btn">Save Task</button>
+                <button id="edit-task-btn" style="display: none;">Edit Task</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
